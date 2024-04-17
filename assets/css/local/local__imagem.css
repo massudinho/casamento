@@ -1,0 +1,22 @@
+.local__imagem {
+    padding: 2%;
+    width: 75%;
+    height: 100vh;
+    
+}
+
+@media screen and (min-width: 0) {
+    .local__imagem {
+        width: 100%;
+        padding: 2%;
+        height: 70%;
+        
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .local__imagem {
+        padding: 2%;
+        width: 75%;
+        height: 70%;
+}

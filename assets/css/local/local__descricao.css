@@ -1,0 +1,21 @@
+.local__descricao {
+      color: black;
+      font-family: "Quicksand", sans-serif;
+      font-weight: 300;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      text-align: justify;
+      text-indent: 2rem;
+}
+
+@media screen and (min-width: 0px) {
+      .local__descricao {
+          font-size: 1rem;
+      }
+  }
+  
+  @media screen and (min-width: 768px) {
+      .local__descricao {
+          font-size: 1.5rem;
+      }
+  }

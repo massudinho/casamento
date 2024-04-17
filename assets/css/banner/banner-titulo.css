@@ -1,0 +1,32 @@
+.banner__titulo {
+    color: #fdfdfd;
+    font-size: 6rem;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 22px 18px rgba(0, 0, 0, 0.75);
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-family: "Rochester", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+     
+
+
+@media screen and (min-width: 0) {
+    .banner__titulo {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__titulo {
+        font-size: 5.0625rem;
+    }
+}
+
+
